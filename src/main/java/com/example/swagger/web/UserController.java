@@ -25,13 +25,11 @@ public class UserController {
     @Autowired
     UserService cityService;
 
-    //{"id":1,"name":"仕明","age":"25","description":"仕明是个好同学"}
-    // http://localhost:8080/user/1
     @ApiOperation(value = "获取用户信息", notes = "根据用户id获取用户信息")
     @ApiImplicitParam(name = "id", value = "用户id", required = true, dataType = "Long", paramType = "path")
     @GetMapping("/{id}")
     @ResponseBody
-    public ResultBody getUserById(@PathVariable(value = "id") Long id) throws GlobalErrorInfoException {
+    public ResultBody getUserById(@PathVariable(value = "id") Long id) {
         System.out.println("id=" + id);
         User userById = cityService.getUserById(id);
         if (userById != null) {
@@ -40,7 +38,6 @@ public class UserController {
         }
         User user = new User();
         user.setDescription("没有找到这个人");
-//        throw new GlobalErrorInfoException(GlobalErrorInfoEnum.NOT_FOUND);
          return new ResultBody(user);
     }
 
