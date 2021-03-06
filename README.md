@@ -12,18 +12,7 @@
 88    88 "8a,   ,a8"   `8b,d8'   "8b,   ,aa    "8a,   ,a88  
 88    88  `"YbbdP"'      "8"      `"Ybbd8"'     `"YbbdP'Y8  
                                                             
-                                                            
-
-          88          88                    88                          
-          88          ""                    ""                          
-          88                                                            
-,adPPYba, 88,dPPYba,  88 88,dPYba,,adPYba,  88 8b,dPPYba,   ,adPPYb,d8  
-I8[    "" 88P'    "8a 88 88P'   "88"    "8a 88 88P'   `"8a a8"    `Y88  
- `"Y8ba,  88       88 88 88      88      88 88 88       88 8b       88  
-aa    ]8I 88       88 88 88      88      88 88 88       88 "8a,   ,d88  
-`"YbbdP"' 88       88 88 88      88      88 88 88       88  `"YbbdP"Y8  
-                                                            aa,    ,88  
-                                                             "Y8bbdP"   
+                                                           
 
 ```
 ![spring boot](https://upload-images.jianshu.io/upload_images/5363507-ee790b50c43f80fc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
