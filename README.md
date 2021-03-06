@@ -81,8 +81,8 @@ aa    ]8I 88       88 88 88      88      88 88 88       88 "8a,   ,d88
 
 ```
 /**
- * author： Created by shiming on 2018/9/26 18:10
- * mailbox：lamshiming@sina.com
+ * author： Created by tony on 2018/9/26 18:10
+ * mailbox：shohokuf@163.com
  */
 @Configuration
 @EnableSwagger2
@@ -101,7 +101,7 @@ public class SwaggerConfig {
     private ApiInfo buildApiInf() {
         return new ApiInfoBuilder()
                 .title("RESTful API 文档")
-                .contact(new Contact("shiming", "https://www.shiming.site/", null))
+                .contact(new Contact("tony", "https://www.tony.site/", null))
                 .version("1.0")
                 .build();
     }
@@ -112,7 +112,7 @@ public class SwaggerConfig {
 
 ```
 ## 数据源配置
-spring.datasource.url= jdbc:mysql://localhost:3306/shiming?useUnicode=true&characterEncoding=utf-8&useSSL=true
+spring.datasource.url= jdbc:mysql://localhost:3306/tony?useUnicode=true&characterEncoding=utf-8&useSSL=true
 spring.datasource.username=root
 spring.datasource.password=App123
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
@@ -247,8 +247,8 @@ INSERT user VALUES (0,'仕明','25','仕明是个好同学');
 * UserController的代码如下
 ```
 /**
- * author： Created by shiming on 2018/9/26 16:42
- * mailbox：lamshiming@sina.com
+ * author： Created by tony on 2018/9/26 16:42
+ * mailbox：shohokuf@163.com
  */
 
 @Api(value = "用户Controller")
@@ -355,7 +355,7 @@ public class UserController {
   * @PatchMapping对应HTTP中的PATCH方法。
 
 
-*  本文git地址[Swagger2Demo](https://github.com/Shimingli/SwaggerDemo)
+*  本文git地址[Swagger2Demo](https://github.com/tonyli/SwaggerDemo)
 
 * 最后说明几点
    *  感谢给与我学习的帮助[SpringAll](https://github.com/wuyouzhuguli/SpringAll)

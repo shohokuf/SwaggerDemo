@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
@@ -10,12 +10,12 @@
 
     <name>swagger</name>
     <description>Demo project for Spring Boot</description>
-    <!--2.0.5.RELEASE 版本的区别太大了啊 1.5.1.RELEASE  是不是自己写错了代码的原因啊，真的是日了狗啊！哈哈  1.5.11.RELEASE  有时候版本高了 ，感觉mvn 没有自动的导入啊  真的坑-->
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.5.RELEASE</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <properties>
@@ -28,12 +28,6 @@
     </properties>
 
     <dependencies>
-        <!--&lt;!&ndash; Spring Boot Freemarker 依赖  如果去掉的话 请求会报错 This application has no explicit mapping for /error, so you are seeing this as a fallback. &ndash;&gt;-->
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-starter-freemarker</artifactId>-->
-        <!--</dependency>-->
-
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -65,6 +59,7 @@
             <artifactId>springfox-swagger2</artifactId>
             <version>2.6.1</version>
         </dependency>
+
         <!--ui的界面-->
         <dependency>
             <groupId>io.springfox</groupId>
@@ -72,13 +67,10 @@
             <version>2.6.1</version>
         </dependency>
 
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
     </dependencies>
-
 
 </project>

@@ -1,14 +1,6 @@
 package com.example.swagger.domain;
 
-/**
- * author： Created by shiming on 2018/9/26 16:00
- * mailbox：lamshiming@sina.com
- * 用户实体类
- */
-
 public class User {
-
-
 
     private Long id;
 
@@ -17,7 +9,6 @@ public class User {
     private String age;
 
     private String description;
-
 
     public Long getId() {
         return id;
